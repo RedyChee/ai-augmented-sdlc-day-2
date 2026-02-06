@@ -89,17 +89,37 @@ body {
   border-color: #4d4d4d;
   text-decoration: underline;
 }
+
+.toggle-btn--selected {
+  border: 3px solid #333;
+  background-color: #e6e6e6;
+  font-weight: bold;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 .btn__danger {
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-  color: #fff;
+  background-color: #d32f2f;
+  color: white;
+}
+
+.btn__danger:hover,
+.btn__danger:focus {
+  background-color: #a52222;
 }
 .btn__filter {
   border-color: lightgrey;
 }
 .btn__primary {
-  background-color: #000;
-  color: #fff;
+  background-color: #0066cc;
+  color: white;
+}
+
+.btn__primary:hover,
+.btn__primary:focus {
+  background-color: #004d99;
 }
 .btn-group {
   display: flex;

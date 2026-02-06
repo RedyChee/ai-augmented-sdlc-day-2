@@ -2,7 +2,7 @@ function FilterButton(props) {
   return (
     <button
       type="button"
-      className="btn toggle-btn"
+      className={`btn toggle-btn ${props.isPressed ? 'toggle-btn--selected' : ''}`}
       aria-pressed={props.isPressed}
       onClick={() => props.setFilter(props.name)}
     >
